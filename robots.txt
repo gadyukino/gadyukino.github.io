@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://amaltsevgetwola-maker.github.io/gadyukino/sitemap.xml
