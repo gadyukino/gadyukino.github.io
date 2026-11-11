@@ -3,16 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Оборона Гадюкино — tower defense о русской деревне | Android, RuStore</title>
-<meta name="description" content="Оборона Гадюкино — бесплатная офлайн-игра в жанре tower defense для Android. 10 глав и 70 уровней: деревня Гадюкино тысячу лет отбивается от волков, печенегов, крестоносцев, шведов и Наполеона и вырастает в мегаполис. Скачать в RuStore.">
+<title>Оборона Гадюкино — трилогия tower defense о русской деревне | Android, RuStore</title>
+<meta name="description" content="Оборона Гадюкино — серия бесплатных офлайн-игр в жанре tower defense для Android. Часть 1: деревня тысячу лет отбивается от захватчиков и вырастает в мегаполис, 70 уровней с новой рисованной графикой. Часть 2: мегаполис защищает Землю до XXV века. Часть 3 «Чародол»: Гадюкино провалилось в мир магии.">
 <link rel="canonical" href="https://amaltsevgetwola-maker.github.io/gadyukino/">
 <meta name="theme-color" content="#2a0b12">
 <link rel="icon" href="img/icon-192.png" type="image/png">
 <link rel="apple-touch-icon" href="img/icon-192.png">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ru_RU">
-<meta property="og:title" content="Оборона Гадюкино — tower defense о русской деревне">
-<meta property="og:description" content="Тысячу лет подряд кто-нибудь хочет захватить Гадюкино. 70 уровней обороны сквозь века, играет без интернета. Бесплатно в RuStore.">
+<meta property="og:title" content="Оборона Гадюкино — трилогия tower defense о русской деревне">
+<meta property="og:description" content="Тысячу лет подряд кто-нибудь хочет захватить Гадюкино. Три части: от Руси до наших дней, от наших дней до XXV века и волшебный Чародол. Играет без интернета.">
 <meta property="og:url" content="https://amaltsevgetwola-maker.github.io/gadyukino/">
 <meta property="og:image" content="https://amaltsevgetwola-maker.github.io/gadyukino/img/og.jpg">
 <meta property="og:image:width" content="1200">
@@ -26,12 +26,26 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "VideoGameSeries",
+      "@id": "https://amaltsevgetwola-maker.github.io/gadyukino/#series",
+      "name": "Оборона Гадюкино",
+      "url": "https://amaltsevgetwola-maker.github.io/gadyukino/",
+      "description": "Серия tower defense о русской деревне Гадюкино: от Руси до наших дней, от наших дней до XXV века и в волшебном мире Чародол.",
+      "author": {"@type": "Person", "name": "Александр Мальцев"},
+      "hasPart": [
+        {"@id": "https://amaltsevgetwola-maker.github.io/gadyukino/#game"},
+        {"@id": "https://amaltsevgetwola-maker.github.io/gadyukino/#game2"},
+        {"@id": "https://amaltsevgetwola-maker.github.io/charodol/#game"}
+      ]
+    },
+    {
       "@type": ["VideoGame", "MobileApplication"],
       "@id": "https://amaltsevgetwola-maker.github.io/gadyukino/#game",
       "name": "Оборона Гадюкино",
       "alternateName": "Oborona Gadyukino",
-      "url": "https://amaltsevgetwola-maker.github.io/gadyukino/",
-      "description": "Tower defense о русской деревне Гадюкино, которая за тысячу лет вырастает от трёх изб до мегаполиса. 10 глав и 70 уровней: от волков и разбойников до печенегов, крестоносцев, шведов, армии Наполеона и современного Враждебного Альянса. Играет без интернета.",
+      "url": "https://amaltsevgetwola-maker.github.io/gadyukino/#part1",
+      "isPartOf": {"@id": "https://amaltsevgetwola-maker.github.io/gadyukino/#series"},
+      "description": "Tower defense о русской деревне Гадюкино, которая за тысячу лет вырастает от трёх изб до мегаполиса. 10 глав и 70 уровней: от волков и разбойников до печенегов, крестоносцев, шведов, армии Наполеона и современного Враждебного Альянса. Новая рисованная графика, живые обложки глав, шутки врагов прямо в бою. Играет без интернета.",
       "genre": ["Tower defense", "Стратегия", "Казуальная игра"],
       "gamePlatform": "Android",
       "operatingSystem": "Android 7.0 и новее",
@@ -43,12 +57,12 @@
       "numberOfPlayers": {"@type": "QuantitativeValue", "value": 1},
       "image": "https://amaltsevgetwola-maker.github.io/gadyukino/img/icon-512.png",
       "screenshot": [
-        "https://amaltsevgetwola-maker.github.io/gadyukino/img/shot-1.jpg",
-        "https://amaltsevgetwola-maker.github.io/gadyukino/img/shot-2.jpg",
-        "https://amaltsevgetwola-maker.github.io/gadyukino/img/shot-3.jpg",
-        "https://amaltsevgetwola-maker.github.io/gadyukino/img/shot-4.jpg",
-        "https://amaltsevgetwola-maker.github.io/gadyukino/img/shot-5.jpg",
-        "https://amaltsevgetwola-maker.github.io/gadyukino/img/shot-6.jpg"
+        "https://amaltsevgetwola-maker.github.io/gadyukino/img/p1/shot-2.jpg",
+        "https://amaltsevgetwola-maker.github.io/gadyukino/img/p1/shot-4.jpg",
+        "https://amaltsevgetwola-maker.github.io/gadyukino/img/p1/shot-5.jpg",
+        "https://amaltsevgetwola-maker.github.io/gadyukino/img/p1/shot-6.jpg",
+        "https://amaltsevgetwola-maker.github.io/gadyukino/img/p1/shot-7.jpg",
+        "https://amaltsevgetwola-maker.github.io/gadyukino/img/p1/shot-8.jpg"
       ],
       "downloadUrl": "https://www.rustore.ru/catalog/app/ru.gadyukino.oborona",
       "installUrl": "https://www.rustore.ru/catalog/app/ru.gadyukino.oborona",
@@ -59,129 +73,253 @@
       "keywords": "tower defense, оборона башен, русская деревня, история России, офлайн игра, игра без интернета, стратегия для Android, RuStore"
     },
     {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {"@type": "Question", "name": "Игра бесплатная?", "acceptedAnswer": {"@type": "Answer", "text": "Да. «Оборона Гадюкино» бесплатна, встроенных покупок нет. Иногда между уровнями показывается реклама, а за просмотр ролика по желанию можно получить бонус: монеты от купца или звезду кузнеца."}},
-        {"@type": "Question", "name": "Нужен ли интернет?", "acceptedAnswer": {"@type": "Answer", "text": "Нет, игра работает без интернета: в дороге, на даче, в самолёте. Интернет нужен только для показа рекламы."}},
-        {"@type": "Question", "name": "Где скачать «Оборону Гадюкино»?", "acceptedAnswer": {"@type": "Answer", "text": "В магазине приложений RuStore: https://www.rustore.ru/catalog/app/ru.gadyukino.oborona"}},
-        {"@type": "Question", "name": "На каких устройствах работает игра?", "acceptedAnswer": {"@type": "Answer", "text": "На телефонах и планшетах с Android 7.0 и новее. Интерфейс подстраивается под экран, играть удобно горизонтально."}},
-        {"@type": "Question", "name": "Сколько в игре уровней?", "acceptedAnswer": {"@type": "Answer", "text": "70: десять глав по семь уровней. На седьмом уровне каждой главы ждёт вожак: медведь-шатун, атаман, хан печенегов, магистр ордена и другие."}},
-        {"@type": "Question", "name": "Какие эпохи и враги есть в игре?", "acceptedAnswer": {"@type": "Answer", "text": "Хищники в глухой старине, разбойники в лихие времена, печенеги в X веке, татаро-монголы и тевтонские крестоносцы в XIII веке, Речь Посполитая в XVII веке, шведы в XVIII веке, армия Наполеона в 1812 году, немецко-фашистские захватчики в 1941–1945 годах и современный Враждебный Альянс."}},
-        {"@type": "Question", "name": "Есть ли игра на iPhone или в Google Play?", "acceptedAnswer": {"@type": "Answer", "text": "Пока игра выходит только для Android в RuStore."}},
-        {"@type": "Question", "name": "Подходит ли игра детям?", "acceptedAnswer": {"@type": "Answer", "text": "Возрастная маркировка 12+: в игре есть сражения, но без натурализма. Графика рисованная, бои стилизованные."}}
-      ]
+      "@type": ["VideoGame", "MobileApplication"],
+      "@id": "https://amaltsevgetwola-maker.github.io/gadyukino/#game2",
+      "name": "Оборона Гадюкино 2",
+      "url": "https://amaltsevgetwola-maker.github.io/gadyukino/#part2",
+      "isPartOf": {"@id": "https://amaltsevgetwola-maker.github.io/gadyukino/#series"},
+      "description": "Продолжение «Обороны Гадюкино»: мегаполис отбивается от врагов будущего — Враждебного Альянса, взбунтовавшегося ИИ, корпорации «Глобальный добрый мир», колоний и пришельцев. Три яруса боя: земля, дроны и штурмовики. Сейчас открыты главы I–VI (48 уровней).",
+      "genre": ["Tower defense", "Стратегия"],
+      "gamePlatform": "Android",
+      "operatingSystem": "Android 7.0 и новее",
+      "inLanguage": "ru",
+      "contentRating": "12+",
+      "image": "https://amaltsevgetwola-maker.github.io/gadyukino/img/icon2-512.png",
+      "author": {"@type": "Person", "name": "Александр Мальцев"}
     }
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "Игры бесплатные?", "acceptedAnswer": {"@type": "Answer", "text": "Да. Все части «Обороны Гадюкино» бесплатны, встроенных покупок нет. Иногда между уровнями показывается реклама, а за просмотр ролика по желанию можно получить бонус: монеты от купца или звезду кузнеца."}},
+    {"@type": "Question", "name": "Нужен ли интернет?", "acceptedAnswer": {"@type": "Answer", "text": "Нет, игры работают без интернета: в дороге, на даче, в самолёте. Интернет нужен только для показа рекламы."}},
+    {"@type": "Question", "name": "Где скачать «Оборону Гадюкино»?", "acceptedAnswer": {"@type": "Answer", "text": "Первая часть — в RuStore: https://www.rustore.ru/catalog/app/ru.gadyukino.oborona. Вторая и третья части скоро появятся там же."}},
+    {"@type": "Question", "name": "С какой части начинать?", "acceptedAnswer": {"@type": "Answer", "text": "С любой: у каждой части своя история и своё обучение. Но по порядку смешнее — во второй и третьей частях много отсылок к первой: староста Ерофей, коза Марта, вилы из музея."}},
+    {"@type": "Question", "name": "Что изменилось в первой части?", "acceptedAnswer": {"@type": "Answer", "text": "Игра заново перерисована вручную: новые поля боя, деревня растёт прямо у околицы, живые обложки глав с жителями и прохожими, бойцы трёх уровней улучшения. Осадные башни разваливаются на куски, пушки стреляют с дымом, а враги и староста Ерофей перекидываются шутками прямо в бою."}},
+    {"@type": "Question", "name": "На каких устройствах работают игры?", "acceptedAnswer": {"@type": "Answer", "text": "На телефонах и планшетах с Android 7.0 и новее. Интерфейс подстраивается под экран, играть удобно горизонтально."}},
+    {"@type": "Question", "name": "Есть ли игры на iPhone или в Google Play?", "acceptedAnswer": {"@type": "Answer", "text": "Пока игры выходят только для Android в RuStore."}},
+    {"@type": "Question", "name": "Подходят ли игры детям?", "acceptedAnswer": {"@type": "Answer", "text": "Возрастная маркировка 12+: в играх есть сражения, но без натурализма и крови. Графика рисованная, юмор добрый."}}
+  ]
+}
+</script>
 <style>
-:root{--bg:#2a0b12;--bg2:#3a1119;--panel:#451520;--gold:#d9ab4b;--gold2:#f0c860;--ink:#f6e4c8;--muted:#cdb592;--line:rgba(217,171,75,.35)}
+:root{--bg:#2a0b12;--bg2:#3a1119;--panel:#451520;--gold:#d9ab4b;--gold2:#f0c860;--ink:#f6e4c8;--muted:#cdb592;--line:rgba(217,171,75,.35);--sky:#7fb8ff;--violet:#b49cff}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;background:radial-gradient(ellipse at 50% -10%,#5a1a26 0,var(--bg) 55%) fixed,var(--bg);color:var(--ink);font:18px/1.6 'Alegreya',Georgia,serif;-webkit-font-smoothing:antialiased}
+body{margin:0;background:radial-gradient(ellipse at 50% -10%,#5a1a26 0,var(--bg) 55%) fixed,var(--bg);color:var(--ink);font:18px/1.6 'Alegreya',Georgia,serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 a{color:var(--gold2)}
-.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+img{max-width:100%}
+.wrap{max-width:1120px;margin:0 auto;padding:0 16px}
 h1,h2{font-family:'Ruslan Display',Georgia,serif;font-weight:400;color:var(--gold);letter-spacing:.02em;line-height:1.15;margin:0}
-h1{font-size:clamp(34px,7vw,64px);text-shadow:0 3px 0 #120306}
-h2{font-size:clamp(24px,4.4vw,36px);margin-bottom:18px}
-h3{font-family:'Alegreya Sans',sans-serif;font-size:19px;margin:0 0 4px;color:var(--gold2)}
-.rule{height:10px;background:radial-gradient(circle,var(--gold) 1.6px,transparent 2px) 0 50%/16px 10px repeat-x;opacity:.75;margin:28px 0}
-header{padding:40px 0 8px}
-.hero{display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:center}
-.hero img{width:148px;height:148px;border-radius:30px;box-shadow:0 10px 30px rgba(0,0,0,.5),0 0 0 2px var(--line)}
-.lead{font-size:clamp(18px,2.4vw,22px);margin:14px 0 20px;max-width:640px}
-.btn{display:inline-flex;align-items:center;gap:10px;background:linear-gradient(#e8bd5a,#c8922f);color:#2a0b12;font:700 18px 'Alegreya Sans',sans-serif;text-decoration:none;padding:13px 24px;border-radius:10px;box-shadow:0 4px 0 #7a5418,0 8px 20px rgba(0,0,0,.35)}
+h1{font-size:clamp(36px,7.4vw,72px);text-shadow:0 3px 0 #120306}
+h2{font-size:clamp(26px,4.6vw,40px);margin-bottom:10px}
+h3{font-family:'Alegreya Sans',sans-serif;font-size:20px;margin:0 0 6px;color:var(--gold2)}
+p{margin:0 0 14px}
+.rule{height:10px;background:radial-gradient(circle,var(--gold) 1.6px,transparent 2px) 0 50%/16px 10px repeat-x;opacity:.75;margin:44px 0}
+.kicker{font:700 14px 'Alegreya Sans',sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
+.lead{font-size:clamp(18px,2.4vw,22px);margin:14px 0 22px;max-width:720px}
+
+/* header */
+header{padding:44px 0 4px;text-align:center}
+header .lead{margin-left:auto;margin-right:auto}
+nav.top{display:flex;justify-content:center;flex-wrap:wrap;gap:6px 18px;font:700 16px 'Alegreya Sans',sans-serif;margin-top:6px}
+nav.top a{text-decoration:none;color:var(--muted)}
+nav.top a:hover{color:var(--gold2)}
+
+/* game cards */
+.games{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px;text-align:left}
+.game{display:flex;flex-direction:column;background:linear-gradient(var(--panel),var(--bg2));border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.game .pic{aspect-ratio:16/7;background:#000 center/cover no-repeat;position:relative}
+.game .pic img.ic{position:absolute;left:14px;bottom:-26px;width:68px;height:68px;border-radius:16px;box-shadow:0 6px 16px rgba(0,0,0,.5),0 0 0 2px var(--gold)}
+.game .body{padding:36px 16px 16px;display:flex;flex-direction:column;flex:1}
+.game h3{font-size:21px}
+.game p{font-size:16px;line-height:1.5;color:var(--ink);flex:1}
+.status{display:inline-block;font:700 13px 'Alegreya Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;border-radius:999px;padding:3px 10px;margin-bottom:8px;align-self:flex-start}
+.st-live{background:#3d7a2f;color:#eaffd8}
+.st-soon{background:rgba(217,171,75,.18);color:var(--gold2);border:1px solid var(--line)}
+.game .links{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;background:linear-gradient(#e8bd5a,#c8922f);color:#2a0b12;font:700 18px 'Alegreya Sans',sans-serif;text-decoration:none;padding:12px 22px;border-radius:10px;box-shadow:0 4px 0 #7a5418,0 8px 20px rgba(0,0,0,.35);text-align:center}
 .btn:hover{filter:brightness(1.07)}
 .btn:active{transform:translateY(2px);box-shadow:0 2px 0 #7a5418}
-.facts{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px;padding:0;list-style:none;font:15px 'Alegreya Sans',sans-serif}
+.btn.sm{font-size:16px;padding:9px 16px}
+.btn.ghost{background:transparent;color:var(--gold2);box-shadow:none;border:1px solid var(--gold)}
+.btn.ghost:active{transform:none}
+.btn.magic{background:linear-gradient(#b9a2ff,#7b5ad8);color:#160a33;box-shadow:0 4px 0 #3e2a80,0 8px 20px rgba(0,0,0,.35)}
+.btn.off{background:rgba(255,255,255,.06);color:var(--muted);box-shadow:none;border:1px dashed var(--line);cursor:default}
+
+.facts{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px;padding:0;list-style:none;font:15px 'Alegreya Sans',sans-serif}
 .facts li{border:1px solid var(--line);border-radius:999px;padding:4px 12px;color:var(--muted)}
-.shots{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+
+/* part heading */
+.parthead{display:grid;grid-template-columns:auto 1fr;gap:22px;align-items:center;margin-bottom:18px}
+.parthead img{width:104px;height:104px;border-radius:24px;box-shadow:0 10px 30px rgba(0,0,0,.5),0 0 0 2px var(--line)}
+
+/* covers strip */
+.strip{display:grid;grid-auto-flow:column;grid-auto-columns:min(86%,620px);gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 2px 14px;margin:0 -2px;scrollbar-color:var(--gold) transparent}
+.strip figure{margin:0;scroll-snap-align:start}
+.strip img{display:block;width:100%;height:auto;border-radius:10px;border:2px solid var(--gold);background:#000}
+.strip figcaption{font:15px 'Alegreya Sans',sans-serif;color:var(--muted);margin-top:6px}
+.strip figcaption b{color:var(--gold2)}
+.hint{font:14px 'Alegreya Sans',sans-serif;color:var(--muted);margin:-4px 0 18px}
+
+.shots{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.shots.two{grid-template-columns:repeat(2,1fr)}
 .shots figure{margin:0}
 .shots img{width:100%;height:auto;display:block;border-radius:10px;border:2px solid var(--gold);background:#000}
 .shots figcaption{font:14px 'Alegreya Sans',sans-serif;color:var(--muted);margin-top:6px}
-.cols{display:grid;grid-template-columns:1.2fr 1fr;gap:32px}
+
+.cols{display:grid;grid-template-columns:1.2fr 1fr;gap:32px;margin-top:30px}
 ul.feat{padding-left:20px;margin:0}
 ul.feat li{margin:6px 0}
 .box{background:linear-gradient(var(--panel),var(--bg2));border:1px solid var(--line);border-radius:12px;padding:20px}
+.new{border-color:var(--gold);box-shadow:0 0 0 1px rgba(240,200,96,.25),0 10px 30px rgba(0,0,0,.3)}
+
 table{width:100%;border-collapse:collapse;font:16px 'Alegreya Sans',sans-serif}
 th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
 th{color:var(--gold);font-weight:700}
 td:first-child{color:var(--gold2);white-space:nowrap}
-.tscroll{overflow-x:auto}
+.tscroll{overflow-x:auto;margin-top:26px}
+
+/* part 3 teaser */
+.charodol{position:relative;border-radius:18px;overflow:hidden;border:2px solid var(--violet);background:#1d1440 url(img/p3/hero.jpg) center/cover no-repeat;min-height:440px;display:flex;align-items:flex-end;box-shadow:0 16px 40px rgba(0,0,0,.45)}
+.charodol .in{position:relative;padding:28px;max-width:640px;background:linear-gradient(90deg,rgba(18,10,46,.92),rgba(18,10,46,.7) 70%,transparent);width:100%}
+.charodol h2{color:#ffe08a;text-shadow:0 2px 0 #1a0f3f}
+.charodol .kicker{color:#cbbcff}
+.charodol p{color:#f3edff}
+
 details{border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin:10px 0;background:rgba(0,0,0,.15)}
 summary{cursor:pointer;font:700 18px 'Alegreya Sans',sans-serif;color:var(--gold2)}
 details p{margin:10px 0 0}
 footer{padding:20px 0 40px;color:var(--muted);font:15px 'Alegreya Sans',sans-serif}
 .cta{text-align:center;padding:12px 0}
+
+@media (max-width:900px){
+  .games{grid-template-columns:1fr;max-width:560px;margin-left:auto;margin-right:auto}
+  .shots{grid-template-columns:repeat(2,1fr)}
+}
 @media (max-width:760px){
-  .hero{grid-template-columns:1fr;text-align:center;justify-items:center}
-  .hero img{width:112px;height:112px;border-radius:24px}
-  .facts{justify-content:center}
-  .shots{grid-template-columns:1fr}
+  .parthead{grid-template-columns:1fr;justify-items:start}
+  .parthead img{width:80px;height:80px;border-radius:18px}
+  .shots,.shots.two{grid-template-columns:1fr}
   .cols{grid-template-columns:1fr}
+  .charodol{min-height:520px}
+  .charodol .in{background:linear-gradient(0deg,rgba(18,10,46,.95),rgba(18,10,46,.75) 75%,transparent);padding:22px 16px}
 }
 </style>
 </head>
 <body>
 <header class="wrap">
-  <div class="hero">
-    <img src="img/icon-512.png" alt="Иконка игры «Оборона Гадюкино»: герб с гадюкой, вилами и топором" width="148" height="148">
-    <div>
-      <h1>Оборона Гадюкино</h1>
-      <p class="lead">Tower defense о русской деревне, которую тысячу лет подряд кто-нибудь пытается захватить. Помогите Гадюкину дорасти от трёх изб у болота до мегаполиса и ни разу не сдать околицу.</p>
-      <a class="btn" href="https://www.rustore.ru/catalog/app/ru.gadyukino.oborona">Скачать в RuStore — бесплатно</a>
-      <ul class="facts">
-        <li>Android 7+</li><li>Телефоны и планшеты</li><li>Без интернета</li><li>70 уровней</li><li>Без покупок</li><li>12+</li>
-      </ul>
-    </div>
+  <p class="kicker">Трилогия tower defense для Android</p>
+  <h1>Оборона Гадюкино</h1>
+  <p class="lead">Тысячу лет подряд кто-нибудь пытается захватить Гадюкино: волки, печенеги, Наполеон, взбунтовавшийся ИИ, пришельцы и даже проклятые боги. Гадюкино ни разу не сдало околицу. Помогите и вы.</p>
+  <nav class="top" aria-label="Разделы">
+    <a href="#part1">Часть 1</a><a href="#part2">Часть 2</a><a href="#part3">Часть 3. Чародол</a><a href="#faq">Вопросы</a>
+  </nav>
+
+  <div class="games">
+    <article class="game">
+      <div class="pic" style="background-image:url(img/p1/cover-6.jpg)"><img class="ic" src="img/icon-192.png" alt="" width="68" height="68"></div>
+      <div class="body">
+        <span class="status st-live">В RuStore</span>
+        <h3>Оборона Гадюкино</h3>
+        <p>От трёх изб у болота до мегаполиса: 10 глав, 70 уровней, тысяча лет истории. Игра заново перерисована вручную.</p>
+        <div class="links"><a class="btn sm" href="https://www.rustore.ru/catalog/app/ru.gadyukino.oborona">Скачать бесплатно</a><a class="btn sm ghost" href="#part1">Подробнее</a></div>
+      </div>
+    </article>
+    <article class="game">
+      <div class="pic" style="background-image:url(img/p2/cover-1.jpg)"><img class="ic" src="img/icon2-192.png" alt="" width="68" height="68"></div>
+      <div class="body">
+        <span class="status st-soon">Скоро в RuStore</span>
+        <h3>Оборона Гадюкино 2</h3>
+        <p>Мегаполис против армий будущего: от наших дней до XXV века. Дроны, штурмовики, ИИ, который извиняется перед атакой.</p>
+        <div class="links"><a class="btn sm ghost" href="#part2">Подробнее</a></div>
+      </div>
+    </article>
+    <article class="game">
+      <div class="pic" style="background-image:url(img/p3/hero.jpg)"><img class="ic" src="img/icon3-192.png" alt="" width="68" height="68"></div>
+      <div class="body">
+        <span class="status st-soon">Скоро в RuStore</span>
+        <h3>Оборона Гадюкино 3. Чародол</h3>
+        <p>Хроноускоритель сломался, и Гадюкино провалилось в мир меча и магии. Гоблины, орки, гномы, эльфы, драконы — и боги.</p>
+        <div class="links"><a class="btn sm magic" href="https://amaltsevgetwola-maker.github.io/charodol/">Сайт Чародола</a></div>
+      </div>
+    </article>
   </div>
 </header>
 
 <main class="wrap">
   <div class="rule"></div>
 
-  <section aria-labelledby="shots">
-    <h2 id="shots">Как это выглядит</h2>
+  <!-- ЧАСТЬ 1 -->
+  <section id="part1" aria-labelledby="p1h">
+    <div class="parthead">
+      <img src="img/icon-512.png" alt="Иконка игры «Оборона Гадюкино»: герб с гадюкой, вилами и топором" width="104" height="104">
+      <div>
+        <p class="kicker">Часть первая · от Руси до наших дней</p>
+        <h2 id="p1h">Оборона Гадюкино</h2>
+      </div>
+    </div>
+    <p class="lead">Tower defense о русской деревне, которая за тысячу лет вырастает от трёх изб у болота до мегаполиса. Расставляйте защитников вдоль дорог, усиливайте их и не пропускайте врага к околице.</p>
+    <ul class="facts"><li>Android 7+</li><li>Телефоны и планшеты</li><li>Без интернета</li><li>70 уровней</li><li>Без покупок</li><li>12+</li></ul>
+    <a class="btn" href="https://www.rustore.ru/catalog/app/ru.gadyukino.oborona">Скачать в RuStore — бесплатно</a>
+
+    <div class="cols">
+      <div class="box new">
+        <h3>Гадюкино перерисовано</h3>
+        <p style="margin:0 0 8px">Почти вся первая часть нарисована заново, вручную и в одном стиле:</p>
+        <ul class="feat">
+          <li>Новые поля боя и деревня, которая растёт прямо у околицы — с избами, мельницей, торгом, церквями и кремлём</li>
+          <li>Живые обложки глав: по улицам ходят жители, гуляют куры и прохожие, из труб идёт дым</li>
+          <li>Бойцы трёх уровней: улучшенный защитник меняет доспех и оружие</li>
+          <li>Осадные башни и тараны разваливаются на куски, пищали и пушки стреляют с пороховым дымом</li>
+          <li>Враги и староста Ерофей перекидываются шутками прямо в бою</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>Что внутри</h3>
+        <ul class="feat">
+          <li>10 глав и 70 уровней, вожак в конце каждой главы</li>
+          <li>Свои защитники и враги в каждой эпохе</li>
+          <li>«Гадюкина сила» и набат — способности на крайний случай</li>
+          <li>Ночные бои, конные набеги, орды — особые испытания</li>
+          <li>Кузница Прохора: улучшения за звёзды для всех глав</li>
+          <li>«Летопись Гадюкина» — короткая история к каждой главе</li>
+          <li>Три звезды за уровень без потерь</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 style="margin-top:34px">Как Гадюкино растёт</h3>
+    <div class="strip" tabindex="0" aria-label="Обложки глав первой части">
+      <figure><img src="img/p1/cover-1.jpg" alt="Обложка главы I: деревенька из трёх изб у леса и болота" width="1200" height="303" loading="lazy"><figcaption><b>I.</b> Деревенька. Глухая старина</figcaption></figure>
+      <figure><img src="img/p1/cover-2.jpg" alt="Обложка главы II: деревня с мельницей и торговыми рядами у реки" width="1200" height="303" loading="lazy"><figcaption><b>II.</b> Деревня. Лихие времена</figcaption></figure>
+      <figure><img src="img/p1/cover-3.jpg" alt="Обложка главы III: село с деревянной церковью посреди степи" width="1200" height="303" loading="lazy"><figcaption><b>III.</b> Село. X век</figcaption></figure>
+      <figure><img src="img/p1/cover-4.jpg" alt="Обложка главы IV: крупное село за частоколом на закате" width="1200" height="303" loading="lazy"><figcaption><b>IV.</b> Крупное село. XIII век</figcaption></figure>
+      <figure><img src="img/p1/cover-5.jpg" alt="Обложка главы V: зимний деревянный городок у замёрзшего озера" width="1200" height="303" loading="lazy"><figcaption><b>V.</b> Городок. XIII век</figcaption></figure>
+      <figure><img src="img/p1/cover-6.jpg" alt="Обложка главы VI: белокаменный город с золотыми куполами" width="1200" height="303" loading="lazy"><figcaption><b>VI.</b> Маленький город. XVII век</figcaption></figure>
+      <figure><img src="img/p1/cover-7.jpg" alt="Обложка главы VII: город с собором, верфью и кораблём" width="1200" height="303" loading="lazy"><figcaption><b>VII.</b> Город. XVIII век</figcaption></figure>
+      <figure><img src="img/p1/cover-8.jpg" alt="Обложка главы VIII: крупный город за кирпичной стеной осенью 1812 года" width="1200" height="300" loading="lazy"><figcaption><b>VIII.</b> Крупный город. 1812 год</figcaption></figure>
+    </div>
+    <p class="hint">Листайте вбок →</p>
+
+    <h3>Как это выглядит в бою</h3>
     <div class="shots">
-      <figure><img src="img/shot-1.jpg" alt="Глава I, деревенька: мужики с вилами и охотники с луками защищают избы от лис" width="1280" height="720" loading="lazy"><figcaption>Глава I. Вилы и луки против волков, кабанов и медведя</figcaption></figure>
-      <figure><img src="img/shot-2.jpg" alt="Глава IV: оборона крупного села от войска татаро-монголов" width="1280" height="720" loading="lazy"><figcaption>Глава IV. Крупное село против татаро-монголов</figcaption></figure>
-      <figure><img src="img/shot-3.jpg" alt="Глава VI: стрельцы обороняют маленький город от войск Речи Посполитой" width="1280" height="720" loading="lazy"><figcaption>Глава VI. Стрельцы против Речи Посполитой</figcaption></figure>
-      <figure><img src="img/shot-4.jpg" alt="Глава VIII: крупный город в 1812 году против армии Наполеона" width="1280" height="720" loading="lazy"><figcaption>Глава VIII. 1812 год, армия Наполеона</figcaption></figure>
-      <figure><img src="img/shot-5.jpg" alt="Глава X: мегаполис наших дней, зенитные комплексы и дронщики" width="1280" height="720" loading="lazy"><figcaption>Глава X. От вил до дронов</figcaption></figure>
-      <figure><img src="img/shot-6.jpg" alt="Глава IX: зимняя оборона огромного города в 1941–1945 годах" width="1280" height="720" loading="lazy"><figcaption>Глава IX. 1941–1945</figcaption></figure>
+      <figure><img src="img/p1/shot-2.jpg" alt="Глава II: защитники деревни против разбойников" width="1200" height="723" loading="lazy"><figcaption>Глава II. Разбойники и их атаман</figcaption></figure>
+      <figure><img src="img/p1/shot-4.jpg" alt="Глава IV: оборона крупного села от татаро-монголов" width="1200" height="723" loading="lazy"><figcaption>Глава IV. Татаро-монголы в степи</figcaption></figure>
+      <figure><img src="img/p1/shot-5.jpg" alt="Глава V: зимний городок против крестоносцев и осадной башни" width="1200" height="723" loading="lazy"><figcaption>Глава V. Крестоносцы и осадная башня</figcaption></figure>
+      <figure><img src="img/p1/shot-6.jpg" alt="Глава VI: стрельцы обороняют белокаменный город от Речи Посполитой" width="1200" height="723" loading="lazy"><figcaption>Глава VI. Стрельцы против Речи Посполитой</figcaption></figure>
+      <figure><img src="img/p1/shot-7.jpg" alt="Глава VII: город XVIII века против шведов" width="1200" height="723" loading="lazy"><figcaption>Глава VII. Шведы</figcaption></figure>
+      <figure><img src="img/p1/shot-8.jpg" alt="Глава VIII: осенний город 1812 года против армии Наполеона" width="1200" height="723" loading="lazy"><figcaption>Глава VIII. 1812 год, армия Наполеона</figcaption></figure>
     </div>
-  </section>
 
-  <div class="rule"></div>
-
-  <section aria-labelledby="about" class="cols">
-    <div>
-      <h2 id="about">Об игре</h2>
-      <p>Тысячу лет подряд кто-нибудь хочет захватить Гадюкино: то волки, то печенеги, то Наполеон. Жители уже привыкли — убрали урожай, отбили нашествие, поставили новую избу.</p>
-      <p>«Оборона Гадюкино» — классическая «оборона башен» с русским характером. Расставляйте защитников вдоль дорог, усиливайте их и не пропускайте врага к деревне. С каждой главой Гадюкино растёт: деревенька, деревня, село, город — и, наконец, мегаполис. Вместе с ним меняются и защитники: мужики с вилами, ратники, стрельцы, гренадеры, зенитчики, дронщики.</p>
-      <p>Игру сделал один разработчик, Александр Мальцев. Вся графика нарисована специально для неё.</p>
-    </div>
-    <div class="box">
-      <h3>Что внутри</h3>
-      <ul class="feat">
-        <li>10 глав и 70 уровней, вожак в конце каждой главы</li>
-        <li>Свои защитники и враги в каждой эпохе</li>
-        <li>«Гадюкина сила» и набат — способности на крайний случай</li>
-        <li>Ночные бои, конные набеги, орды — особые испытания</li>
-        <li>Кузница Прохора: улучшения за звёзды для всех глав</li>
-        <li>«Летопись Гадюкина» — короткая история к каждой главе</li>
-        <li>Три звезды за уровень без потерь</li>
-        <li>Живые звуки и музыка, игра без интернета</li>
-      </ul>
-    </div>
-  </section>
-
-  <div class="rule"></div>
-
-  <section aria-labelledby="chapters">
-    <h2 id="chapters">Десять глав — тысяча лет</h2>
     <div class="tscroll">
       <table>
+        <caption style="text-align:left;font:400 clamp(20px,3vw,26px) 'Ruslan Display',serif;color:var(--gold);padding-bottom:8px">Десять глав — тысяча лет</caption>
         <thead><tr><th>Глава</th><th>Эпоха</th><th>Гадюкино</th><th>Враг</th></tr></thead>
         <tbody>
           <tr><td>I</td><td>Глухая старина</td><td>Деревенька</td><td>Хищники: лисы, волки, кабаны, медведь-шатун</td></tr>
@@ -201,16 +339,76 @@ footer{padding:20px 0 40px;color:var(--muted);font:15px 'Alegreya Sans',sans-ser
 
   <div class="rule"></div>
 
-  <section aria-labelledby="faq">
-    <h2 id="faq">Вопросы и ответы</h2>
-    <details open><summary>Игра бесплатная?</summary><p>Да. «Оборона Гадюкино» бесплатна, встроенных покупок нет. Иногда между уровнями показывается реклама, а за просмотр ролика по желанию можно получить бонус: монеты от купца или звезду кузнеца.</p></details>
-    <details><summary>Нужен ли интернет?</summary><p>Нет, игра работает без интернета: в дороге, на даче, в самолёте. Интернет нужен только для показа рекламы.</p></details>
-    <details><summary>Где скачать «Оборону Гадюкино»?</summary><p>В магазине приложений RuStore: <a href="https://www.rustore.ru/catalog/app/ru.gadyukino.oborona">rustore.ru/catalog/app/ru.gadyukino.oborona</a>.</p></details>
-    <details><summary>На каких устройствах работает игра?</summary><p>На телефонах и планшетах с Android 7.0 и новее. Интерфейс подстраивается под экран, играть удобно горизонтально.</p></details>
-    <details><summary>Сколько в игре уровней?</summary><p>70: десять глав по семь уровней. На седьмом уровне каждой главы ждёт вожак: медведь-шатун, атаман, хан печенегов, магистр ордена и другие.</p></details>
-    <details><summary>Какие эпохи и враги есть в игре?</summary><p>Хищники в глухой старине, разбойники в лихие времена, печенеги в X веке, татаро-монголы и тевтонские крестоносцы в XIII веке, Речь Посполитая в XVII веке, шведы в XVIII веке, армия Наполеона в 1812 году, немецко-фашистские захватчики в 1941–1945 годах и современный Враждебный Альянс.</p></details>
-    <details><summary>Есть ли игра на iPhone или в Google Play?</summary><p>Пока игра выходит только для Android в RuStore.</p></details>
-    <details><summary>Подходит ли игра детям?</summary><p>Возрастная маркировка 12+: в игре есть сражения, но без натурализма. Графика рисованная, бои стилизованные.</p></details>
+  <!-- ЧАСТЬ 2 -->
+  <section id="part2" aria-labelledby="p2h">
+    <div class="parthead">
+      <img src="img/icon2-512.png" alt="Иконка игры «Оборона Гадюкино 2»" width="104" height="104" loading="lazy">
+      <div>
+        <p class="kicker">Часть вторая · от наших дней до XXV века</p>
+        <h2 id="p2h">Оборона Гадюкино 2</h2>
+      </div>
+    </div>
+    <p class="lead">Гадюкино стало мегаполисом с проспектом Ерофея и дизелёбусом по расписанию, но враги не кончились. Танки Враждебного Альянса, городской ИИ, который вежливо извиняется перед каждой атакой, корпорация «Глобальный добрый мир» с добрыми дубинками — а в конце инопланетный улей, и Гадюкино защищает уже всю Землю.</p>
+    <ul class="facts"><li>Три яруса боя</li><li>Главы I–VI открыты</li><li>48 уровней сейчас, 80 в планах</li><li>Без интернета</li><li>12+</li></ul>
+    <span class="btn off">Скоро в RuStore</span>
+
+    <div class="strip" tabindex="0" aria-label="Обложки глав второй части" style="margin-top:26px">
+      <figure><img src="img/p2/cover-1.jpg" alt="Обложка главы I второй части: мегаполис на закате, набережная и дизелёбус" width="1200" height="500" loading="lazy"><figcaption><b>I.</b> Мегаполис. Наши дни</figcaption></figure>
+      <figure><img src="img/p2/cover-3.jpg" alt="Обложка главы III: умный город 2040-х" width="1200" height="501" loading="lazy"><figcaption><b>III.</b> Умный город. 2040-е</figcaption></figure>
+      <figure><img src="img/p2/cover-5.jpg" alt="Обложка главы V: город-сад XXII века с дирижаблем" width="1200" height="501" loading="lazy"><figcaption><b>V.</b> Город-сад. XXII век</figcaption></figure>
+    </div>
+
+    <div class="cols" style="margin-top:14px">
+      <div>
+        <div class="shots two">
+          <figure><img src="img/p2/shot-1.jpg" alt="Вторая часть, глава I: танки и пехота Альянса идут к мегаполису" width="1200" height="722" loading="lazy"><figcaption>Глава I. Враждебный Альянс</figcaption></figure>
+          <figure><img src="img/p2/shot-3.jpg" alt="Вторая часть, глава III: дроны и машины взбунтовавшегося ИИ" width="1200" height="722" loading="lazy"><figcaption>Глава III. Восстание машин</figcaption></figure>
+          <figure><img src="img/p2/shot-5.jpg" alt="Вторая часть, глава V: город-сад против корпорации" width="1200" height="722" loading="lazy"><figcaption>Глава V. «Глобальный добрый мир»</figcaption></figure>
+          <figure><img src="img/p2/shot-6.jpg" alt="Вторая часть, глава VI: ночная оборона города-сада" width="1200" height="722" loading="lazy"><figcaption>Глава VI. Город-сад в обороне</figcaption></figure>
+        </div>
+      </div>
+      <div class="box">
+        <h3>Что внутри</h3>
+        <ul class="feat">
+          <li>Три яруса боя: по земле идут пехота и техника, низко летят дроны, высоко — штурмовики</li>
+          <li>Бойцы растут вместе с городом: от зениток до лазеров, рельсовых пушек и гравиловушек</li>
+          <li>«Гадюкинский вестник»: летающая баня, грядка дачника Михалыча, стрим блогера Пафнутьева</li>
+          <li>Вожаки: танк «Реванш», мех «Аргус», ядро ИИ «Ерофей-2», Совет директоров</li>
+          <li>Кот Васька прячется на обложке каждой главы</li>
+          <li>Кузница, достижения с медалями, своя музыка у каждой главы</li>
+          <li>Обучение от коменданта Ерофеева, правнука старосты из первой части</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="rule"></div>
+
+  <!-- ЧАСТЬ 3 -->
+  <section id="part3" aria-labelledby="p3h">
+    <div class="charodol">
+      <div class="in">
+        <p class="kicker">Часть третья · мир меча и магии</p>
+        <h2 id="p3h">Оборона Гадюкино 3. Чародол</h2>
+        <p>Галактический институт Гадюкино запустил Хроноускоритель, чтобы шаурма приезжала раньше, чем её закажут. Что-то пошло не так. От столицы Галактики осталось шесть изб, коза Марта и сорок упрямых жителей, а вокруг — Чародол: гоблины, орки, гномы, эльфы, драконы и спящие проклятые боги.</p>
+        <p>7 глав, 63 уровня, магия, которая растёт от главы к главе, и главная идея: вчерашний враг — завтрашний союзник.</p>
+        <a class="btn magic" href="https://amaltsevgetwola-maker.github.io/charodol/">Открыть сайт Чародола</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="rule"></div>
+
+  <section id="faq" aria-labelledby="faqh">
+    <h2 id="faqh">Вопросы и ответы</h2>
+    <details open><summary>Игры бесплатные?</summary><p>Да. Все части «Обороны Гадюкино» бесплатны, встроенных покупок нет. Иногда между уровнями показывается реклама, а за просмотр ролика по желанию можно получить бонус: монеты от купца или звезду кузнеца.</p></details>
+    <details><summary>Нужен ли интернет?</summary><p>Нет, игры работают без интернета: в дороге, на даче, в самолёте. Интернет нужен только для показа рекламы.</p></details>
+    <details><summary>Где скачать «Оборону Гадюкино»?</summary><p>Первая часть — в RuStore: <a href="https://www.rustore.ru/catalog/app/ru.gadyukino.oborona">rustore.ru/catalog/app/ru.gadyukino.oborona</a>. Вторая и третья части скоро появятся там же.</p></details>
+    <details><summary>С какой части начинать?</summary><p>С любой: у каждой части своя история и своё обучение. Но по порядку смешнее — во второй и третьей частях много отсылок к первой: староста Ерофей, коза Марта, вилы из музея.</p></details>
+    <details><summary>Что изменилось в первой части?</summary><p>Игра заново перерисована вручную: новые поля боя, деревня растёт прямо у околицы, живые обложки глав с жителями и прохожими, бойцы трёх уровней улучшения. Осадные башни разваливаются на куски, пушки стреляют с дымом, а враги и староста Ерофей перекидываются шутками прямо в бою.</p></details>
+    <details><summary>На каких устройствах работают игры?</summary><p>На телефонах и планшетах с Android 7.0 и новее. Интерфейс подстраивается под экран, играть удобно горизонтально.</p></details>
+    <details><summary>Есть ли игры на iPhone или в Google Play?</summary><p>Пока игры выходят только для Android в RuStore.</p></details>
+    <details><summary>Подходят ли игры детям?</summary><p>Возрастная маркировка 12+: в играх есть сражения, но без натурализма и крови. Графика рисованная, юмор добрый.</p></details>
   </section>
 
   <div class="rule"></div>
